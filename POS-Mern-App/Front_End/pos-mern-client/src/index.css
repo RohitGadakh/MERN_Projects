@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+body{
+    font-family: 'Sora', sans-serif;
+}
+
+.item-button button{
+  width: 200px;
+  margin-top: 20px;
+  background-color: rgb(2, 76, 2);
+  color: white;
+}
+.ant-layout-header{
+  display: flex;
+  justify-content: space-between;
+}
+/* .ant-layout-content{
+  overflow: auto;
+}
+.css-dev-only-do-not-override-1rqnfsa {
+  overflow: hidden;
+} */
+
+.site-layout .site-layout-background{
+  border-radius: 5px;
+   margin: 10px;
+  overflow: auto; 
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+  
+}
+.category {
+  border: 2px solid gray;
+  margin: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+.category img{
+  margin-left: 8px;
+}
+.category-active{
+  border: 3px solid green;
+  background-color: rgb(216, 171, 115);
+}
+
+
+/* register page */
+.register{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ flex-direction: column;
+ /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.register input{
+  width: 400px;
+}
+
+.register-form{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 10px;
+background-color: rgb(171, 171, 224);
+}
+.register-form h1{
+  text-align: center;
+  background-color: rgb(59, 7, 107);
+  color: white;
+  padding: 10px;
+  margin: 10px 60px;
+  margin-bottom: 30px;
+}
+.register-form h3{
+  color: rgb(5, 5, 88);
+  text-align: center;
+}
